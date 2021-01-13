@@ -1,2 +1,25 @@
-#3 { width: 30vwheight;
+img#3{ width: 30vwheight;
 height: auto;}
+img#4 {
+    width:50vw;
+    height:30vh;
+    object-fit:cover;
+  }
+div{
+    width:50px;
+    height:50px;
+    margin:1rem;
+    background-color:black;
+  }
+  
+  #one{
+    box-shadow:5px 5px #cccccc;
+  }
+  
+  #two{
+    box-shadow:0px 0px 5px blue;
+  }
+  
+  #three{
+    box-shadow:10px -10px 3px pink;
+  }
