@@ -23,3 +23,11 @@ div{
   #three{
     box-shadow:10px -10px 3px pink;
   }
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+
+    @font-face {
+      font-family: myFirstFont;
+      src: url(sansation_light.woff);
+    }
+    
