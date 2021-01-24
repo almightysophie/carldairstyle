@@ -1,15 +1,35 @@
+p {
+  font-family: "Trirong", serif;
+  display: flex;
+  font-weight:bolder;
+  color: blue;
+  width: 100vw;
+  overflow: hidden;
+  height: 5vh;
+  padding: 50;
+  margin: 10;
+  align-items: top;
+  box-shadow:0px 0px 8px blue;
+}
+
 img#3{ width: 30vwheight;
-height: auto;}
+height: 100vh;
+box-shadow:0px 0px 5px blue;}
 img#4 {
     width:50vw;
-    height:30vh;
-    object-fit:cover;
+    height:300vh;
+    object-fit:scale-down;
+  }
+  img#2 {
+    width:50vw;
+    height:300vh;
+    object-fit:scale-down;
   }
 div{
     width:50px;
     height:50px;
     margin:1rem;
-    background-color:black;
+    background-color:whitesmoke;
   }
   
   #one{
@@ -21,13 +41,6 @@ div{
   }
   
   #three{
-    box-shadow:10px -10px 3px pink;
+    box-shadow:10px -10px 3px rgb(214, 207, 208);
   }
-  <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
-
-    @font-face {
-      font-family: myFirstFont;
-      src: url(sansation_light.woff);
-    }
     
